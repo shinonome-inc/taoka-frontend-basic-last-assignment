@@ -1,0 +1,27 @@
+.button {
+  display: flex;
+  background-color: black;
+  color: white;
+  font-family: Noto Sans JP;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  &.xs {
+    width: 180px;
+    height: 45px;
+  }
+  &.md {
+    width: 150px;
+    height: 55px;
+  }
+  &.lg {
+    width: 200px;
+    height: 55px;
+  }
+  &:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #442606;
+  }
+}
